@@ -8,9 +8,9 @@ body{
 header{
     justify-content: center;
     align-items: center;
-    background-image: url(../img/backgroundHeader.png);
+    background-image: url(../img/HEADER.svg);
     width: 100vw;
-    height: 100vh;
+    height: 969px;
 }
 h1{
     font-size: 15vw;
@@ -37,4 +37,16 @@ nav a{
 }
 .mediaSocial img{
     padding: 5px;
+}
+.container-biographie{
+    display: flex;
+    height: 700px;
+    background-image: url(../img/background-biographie.svg);
+}
+.biographie-text{
+    padding: 3vw;
+    font-size: 20px;
+}
+.biographie-text h2{
+    font-size: 3vw;
 }
