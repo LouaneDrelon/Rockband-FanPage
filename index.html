@@ -10,10 +10,10 @@
     <header>
       <div class="navbar">
         <nav>
-          <a href="#galerie">Galerie</a>
           <a href="#artistes">Artistes</a>
           <a href="#biographie">Biographie</a>
           <a href="#discographie">Discographie</a>
+          <a href="#contact">Contact</a>
         </nav>
       </div>
 
@@ -80,7 +80,33 @@
       <section id="contact" class="container-contact">
         <div class="bloc-contact">
           <h2>Contactez-nous</h2>
-          <form action=""></form>
+          <div class="for-form">
+            <form action="" class="form-contact">
+              <label for="Email">E-mail</label>
+              <input
+                type="email"
+                name="Email"
+                id="email-contact"
+                placeholder="rockband@gmail.com"
+                required
+              />
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message-contact"
+                placeholder="message..."
+                required
+              ></textarea>
+              <div class="bloc-checkbox">
+                <input type="checkbox" name="checkbox" id="checkbox" required />
+                <label for="checkbox">
+                  J’accepte les termes ... blablalbalblalblalbalblalbalbbal
+                  lorem ipsum dol wa care iu del apagna ir quoicou
+                </label>
+              </div>
+              <input type="submit" value="Send mail" id="submit-button" />
+            </form>
+          </div>
         </div>
       </section>
     </main>

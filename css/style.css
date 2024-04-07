@@ -70,7 +70,7 @@ nav a {
   height: 60%;
 }
 .biographie-text h2 {
-  font-size: 3vw;
+  font-size: 2.5rem;
 }
 .container-stat {
   display: flex;
@@ -97,4 +97,25 @@ nav a {
 }
 #star-svg {
   width: 2vw;
+}
+.container-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bloc-contact {
+  width: 80%;
+}
+.bloc-contact h2 {
+  font-size: 2.5rem;
+}
+.for-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-contact {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
 }
