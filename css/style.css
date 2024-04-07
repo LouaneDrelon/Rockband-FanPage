@@ -118,7 +118,8 @@ nav a{
 }
 .first-album{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    padding-top: 10vh;
 }
 .first-album img{
     width: 15%;
@@ -127,6 +128,14 @@ nav a{
     display: flex;
     flex-direction: column;
     padding-left: 5vw;
+}
+.second-album{
+    display: flex;
+    flex-direction: row;
+    padding-top: 15vh;
+}
+.second-album img{
+    width: 15%;
 }
 .info-album2023{
     display: flex;
