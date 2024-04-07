@@ -118,11 +118,17 @@ nav a{
 }
 .first-album{
     display: flex;
+    flex-direction: column;
 }
 .first-album img{
-    width: 20%;
+    width: 15%;
 }
 .info-album2021{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vw;
+}
+.info-album2023{
     display: flex;
     flex-direction: column;
     padding-left: 5vw;
