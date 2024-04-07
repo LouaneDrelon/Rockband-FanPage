@@ -99,3 +99,31 @@ nav a{
 #star-svg{
     width: 2vw;
 }
+.container-discographie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 920px;
+    width: 100%;
+}
+.container-discographie h2{
+    font-size: 3vw;
+}
+
+.discographie-album{
+    width: 80%;
+    font-size: 20px;
+    height: 60%;
+}
+.first-album{
+    display: flex;
+}
+.first-album img{
+    width: 20%;
+}
+.info-album2021{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vw;
+}
