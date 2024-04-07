@@ -117,5 +117,23 @@ nav a {
 .form-contact {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  gap: 2.5rem;
+}
+.bloc-email {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+.bloc-message {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+#submit-button {
+  width: fit-content;
 }
