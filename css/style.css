@@ -98,6 +98,8 @@ nav a {
 #star-svg {
   width: 2vw;
 }
+
+/* --matis-- */
 .container-contact {
   display: flex;
   justify-content: center;
@@ -136,4 +138,50 @@ nav a {
 }
 #submit-button {
   width: fit-content;
+}
+#email-contact {
+  background-color: transparent;
+  border: 0px;
+  border-bottom: 1px solid white;
+  height: 4vh;
+  color: white;
+}
+#message-contact {
+  background-color: transparent;
+  border: 0px;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  height: 10.5rem;
+  color: white;
+  resize: none;
+}
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  background-color: transparent !important;
+  border: 1px solid white;
+  appearance: none;
+  padding-right: 1.1rem;
+}
+input[type="checkbox"]:checked {
+  width: 20px;
+  height: 20px;
+  background-color: #fa9e57 !important;
+  appearance: auto;
+  padding-right: 1.1rem;
+}
+.bloc-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.1rem;
+}
+.bloc-checkbox label {
+  width: 95%;
+}
+#submit-button {
+  width: 10vw;
+  height: 5vh;
+  font-weight: 700;
+  font-size: medium;
 }
